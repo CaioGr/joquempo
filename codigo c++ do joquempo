@@ -1,0 +1,46 @@
+#include <iostream>
+
+ using namespace  std;
+
+        int caio;
+        int arthur;
+
+  int main(){
+
+      cout << "digite 1 para pedra 2 para tesoura 3 para agulha e 4 para papel" << endl;
+
+      cout << "caio:" << endl;
+        cin >> caio;
+
+      cout << "arthur:" << endl;
+        cin >> arthur;
+
+            if(caio == 1 && arthur == 2){
+                cout << "caio venceu" << endl;
+            }else if(caio == 2 && arthur == 1){
+                cout << "arthur venceu" << endl;
+            }else if(caio == 1 && arthur == 3){
+                cout << "caio venceu" << endl;
+            }else if(caio == 3 && arthur == 1){
+                cout << "arthur venceu" << endl;
+            }else if(caio == 1 && arthur == 4){
+                cout << "arthur venceu" << endl;
+            }else if(caio == 4 && arthur == 1){
+                cout << "caio venceu" << endl;
+            }else if(caio == 2 && arthur == 3){
+                cout << "empate" << endl;
+            }else if(caio == 3 && arthur == 2){
+                cout << "empate" << endl;
+            }else if(caio == 2 && arthur == 4 ){
+                cout << "caio venceu" << endl;
+            }else if(caio == 4 && arthur == 2){
+                cout << "arthur venceu" << endl;
+            }else if(caio == 3 && arthur == 4){
+                cout << "caio venceu" << endl;
+            }else if(caio == 4 && arthur == 3){
+                cout << "arthur venceu" << endl;
+            }else{
+                cout << "esse movimento nao existe" << endl;
+            }
+
+  }
